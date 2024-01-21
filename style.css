@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+:root{
+    --font1: 'Outfit', sans-serif;
+    --font2:'Young Serif', serif;
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Eggshell);
+}
+.container{
+    width: 50%;
+    padding: 2rem;
+    background-color: var(--White);
+    margin: 5rem 0;
+    border-radius: 1rem;
+}
+.foodImg{
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.div1,.div2,.div3,.div4{
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+.div1Title{
+    font-family: var(--font2);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+.div1Desc{
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1.2rem;
+}
+.div1Subdiv{
+    width: 100%;
+    background-color: var(--RoseWhite);
+    padding: 1.3rem;
+}
+.subDivTitle{
+    font-family: var(--font1);
+    font-weight:600;
+    color: var(--DarkRaspberry);
+    margin-bottom: 0.7rem;
+    font-size: 1.2rem;
+}
+.div1ul{
+    padding-left    : 1.3rem;
+}
+.Div1li{
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--WengeBrown);
+    font-family: var(--font1);
+}
+.div2Title,.div3Title,.div4Title{
+    font-family: var(--font2);
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: var(--Nutmeg);
+}
+.div1 li::marker{
+    font-size: 0.7rem;
+    color: var(--DarkRaspberry);
+}
+.div2 li::marker{
+    font-size: 0.7rem;
+    color: var(--WengeBrown);
+}
+.div2 ul,.div3 ol{
+    padding:0rem 1.5rem;
+}
+.div2li{
+    font-family: var(--font1);
+    font-size: 0.95rem;
+    font-weight: 550;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    color: var(--WengeBrown);
+}
+.Div2hr,.div3hr{
+    margin: 2rem 0;
+    opacity: 0.5;
+}
+.div3li::marker{
+    color: var(--Nutmeg);
+    font-size: 1rem;
+    font-family: var(--font1);
+    font-weight: 600;
+}
+.div3li{
+    padding-left: 1rem;
+    font-family: var(--font1);
+    margin-bottom: 0.5rem;
+    color: var(--WengeBrown);
+}
+span{
+    font-weight: bold;
+}
+.div4Desc{
+    font-family:var(--font1);
+    color: var(--WengeBrown);
+    font-weight:500;
+    margin-bottom: 1.5rem;
+}
+table{
+    width: 100%;
+}
+td{
+    border-bottom: 1px solid #000;
+}
+.data4,.data5{
+    border: none;
+}
+.data1,.data4{
+    width: 50%;
+    font-size: 1.1rem;
+    font-family: var(--font1);
+    font-weight: 500;
+    padding:0 0 0.5rem 2rem ;
+    color: var(--WengeBrown);
+}
+.data2,.data5{
+    width: 50%;
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-bottom: .5rem ;
+    color: var(--Nutmeg);
+}
+@media screen and (max-width:430px) and (min-width:300px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        width: 100%;
+        min-height: 100vh;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Eggshell);
+    }
+    .container{
+        width: 100%;
+        padding: 0rem;
+        background-color: var(--White);
+        margin: 0rem 0;
+        border-radius: 0rem;
+    }
+    .foodImg{
+        width: 100%;
+        border-radius: 0rem;
+        margin-bottom: 1rem;
+    }
+    .div1DescDiv,.div2,.div3,.div4{
+        width: 100%;
+        margin-bottom: 1rem;
+        padding:0 2rem;
+    }
+
+    .div1Desc{
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 1rem;
+        padding-right: 0rem;
+        margin-bottom: 1.2rem;
+    }
+    .div2 ul,.div3 ol{
+        padding:0rem 0rem 0 1.5rem;
+    }
+}
+@media screen and (max-width:900px) and (min-width:431px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        width: 100%;
+        min-height: 100vh;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Eggshell);
+    }
+    .container{
+        width: 80%;
+        padding: 0rem;
+        background-color: var(--White);
+        margin: 0rem 0;
+        border-radius: 0rem;
+    }
+    .foodImg{
+        width: 100%;
+        border-radius: 0rem;
+        margin-bottom: 1rem;
+    }
+    .div1DescDiv,.div2,.div3,.div4{
+        width: 100%;
+        margin-bottom: 1rem;
+        padding:0 2rem;
+    }
+
+    .div1Desc{
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 1rem;
+        padding-right: 0rem;
+        margin-bottom: 1.2rem;
+    }
+    .div2 ul,.div3 ol{
+        padding:0rem 0rem 0 1.5rem;
+    }
+}
