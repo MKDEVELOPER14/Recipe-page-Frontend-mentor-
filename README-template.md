@@ -37,4 +37,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Github - [kalaiyarasan](https://github.com/MKDEVELOPER14)
 - Frontend Mentor - [@MKDEVEVLOPER](https://www.frontendmentor.io/profile/MKDEVEVLOPER)
-- LinkedIn -[Kalaiyarasan M](https://www.linkedin.com/in/cyberkalai)
+- LinkedIn -[Kalaiyarasan M](https://www.linkedin.com/in/cyberkalai)  
